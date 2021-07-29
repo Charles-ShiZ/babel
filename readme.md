@@ -9,6 +9,6 @@
 @babel/plugin-syntax-dynamic-import
 babel-plugin-import(from antd)
 
-而且还添加了两个自制的babel小插件，可以作为参考和学习。
+并且添加了两个自制的babel小插件，可以作为参考和学习。
 babel-plugin-remove-log (清除consoleLog)
 babel-plugin-transform-binary-expression (提前转化四则运算)
