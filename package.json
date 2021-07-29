@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "npx babel index.tsx --out-file c.js --config-file ./babel.config.js;node c.js",
+    "babel": "npx babel src/index.tsx --out-file dist/index.js --config-file ./babel.config.js;node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
