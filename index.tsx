@@ -1,4 +1,4 @@
-console.log('asdfasdf')
+console.log('log')
 console.log // asdf
-console.warn('asdfasdf')
+console.warn('warn')
 console.error()

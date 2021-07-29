@@ -1,5 +1,5 @@
 "use strict";
 
 // asdf
-console.warn('asdfasdf');
+console.warn('warn');
 console.error();
