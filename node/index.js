@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { parse } from '@babel/parser'; 
+import { parse } from '@babel/parser';
 import traverse from '@babel/traverse';
 import generate from '@babel/generator';
 import * as t from '@babel/types';
@@ -24,11 +24,11 @@ try {
 
 // 第二步：对AST进行增删改查
 traverse(ast, {
-  JSXAttribute (path) {
+  JSXAttribute(path) {
     //...
   },
 });
 
 // 第三步：将修改后的AST转化成新代码
-const { code:newCode } = generate(ast);
+const { code: newCode } = generate(ast);
 console.log(newCode)
